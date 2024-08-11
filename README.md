@@ -72,6 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### 폴더 설명 
 
+```
 my-react-app/
 ├── public/ # 정적 파일들이 위치한 폴더로, index.html 및 사이트 아이콘 등이 포함됩니다.
 │ ├── index.html # 리액트 앱이 로드되는 기본 HTML 템플릿입니다.
@@ -107,6 +108,7 @@ my-react-app/
 ├── package.json # 프로젝트의 의존성 관리 및 실행 스크립트가 정의된 파일입니다.
 ├── README.md # 프로젝트에 대한 설명 및 가이드가 포함된 파일입니다.
 └── yarn.lock # Yarn 패키지 관리자의 잠금 파일로, 설치된 패키지의 버전이 고정됩니다.
+```
 
 ### `yarn install` 또는 `npm install`
 
