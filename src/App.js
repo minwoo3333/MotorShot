@@ -1,18 +1,13 @@
 import './App.css';
 import React from "react";
-import Hello from "./Hello";
+import MainScreen from './components/MainScreen';
 
 function App() {
 
   return (
-    <>
-      <Hello/>
-      <Hello/>
-      <Hello/>
-      <div>DIV 사용</div>
-    </>
-
-
+    <div className="App">
+      <MainScreen />
+    </div>
   );
 }
 
