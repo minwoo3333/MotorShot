@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/MainPage';
-import VideoUploadPage from './pages/VideoUploadPage';
+import VideoAnalysisPage from './pages/VideoAnalysisPage';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/upload" element={<VideoUploadPage />} />
+        <Route path="/analysis" element={<VideoAnalysisPage />} />
       </Routes>
     </Router>
   );
