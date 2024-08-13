@@ -115,9 +115,9 @@ my-react-app/
 └── yarn.lock # Yarn 패키지 관리자의 잠금 파일로, 설치된 패키지의 버전이 고정됩니다.
 ```
 
-### `npm i`
+### `yarn install` or `npm i`
 
 ### 오류나면 Command Prompt로 변경
 
-### `npm start`
+### `yarn start` or `npm start`
 
