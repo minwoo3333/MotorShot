@@ -6,68 +6,36 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
-
-.header {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  font-size: 20px;
-  color: lightgray;
-}
-
-.content {
   text-align: center;
 }
 
-.icon-container {
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 
 .motorcycle-icon {
-  width: 200px;
+  width: 150px;
 }
 
-.status-container {
-  background-color: #111;
-  padding: 40px; /* 더 넓게 패딩을 주어 컨텐츠를 중앙에 배치 */
-  border-radius: 20px; /* 모서리를 둥글게 변경 */
-  margin-bottom: 20px;
-  width: 60%; /* 컨테이너의 너비를 더 크게 설정 */
-  max-width: 800px; /* 최대 너비를 설정하여 화면이 커져도 너무 넓어지지 않게 */
-  text-align: center; /* 텍스트를 중앙 정렬 */
- 
+.date, .time {
+  font-size: 18px;
+  margin: 5px 0;
 }
 
-.status-container h2 {
-  margin-bottom: 20px;
-  font-size: 24px; /* 폰트 크기 증가 */
-}
-
-.status-container p {
-  margin: 10px 0; /* 텍스트 간의 간격 조정 */
-  font-size: 18px; /* 폰트 크기 증가 */
-}
-
-.status-details {
+.button-container {
   display: flex;
-  justify-content: space-around; /* 요소들 간격을 균일하게 배치 */
-  margin-top: 20px;
-  border-top: 1px solid white; /* 실선을 추가 */
-  border-bottom: 1px solid white; /* 실선을 추가 */
-  padding-top: 20px; /* 실선과 내용 사이에 여백 추가 */
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.status-item {
-  text-align: center;
-}
-
-.status-item img {
-  width: 50px;
-  margin-bottom: 10px;
-}
-
-.start-button {
+.start-button, .logout-button {
   background-color: transparent;
   border: 2px solid white;
   padding: 10px 20px;
@@ -75,10 +43,11 @@
   border-radius: 25px;
   font-size: 18px;
   cursor: pointer;
-  margin-top: 20px; /* 버튼과 컨테이너 사이에 간격 추가 */
+  margin: 10px 0;
+  width: 200px; /* 버튼의 너비를 고정된 픽셀 값으로 설정 */
 }
 
-.start-button:hover {
+.start-button:hover, .logout-button:hover {
   background-color: white;
   color: black;
 }
