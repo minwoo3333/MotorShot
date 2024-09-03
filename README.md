@@ -23,7 +23,7 @@
 
 ```bash
 # 깃 클론
-git clone https://github.com/Heeseon06/Motorshot_frontend_Project
+git clone https://github.com/Songysp/MotorShot
 
 # 프로젝트 루트 폴더에서 아래 실행(패키지 설치)
 npm install
@@ -32,6 +32,8 @@ npm install
 npm start
 ```
 * 백엔드
+  
+**https://github.com/Heeseon06/Motorshot_backend**
 
 ```bash
 # 깃 클론
@@ -138,7 +140,3 @@ my-react-app/
 ├── README.md # 프로젝트에 대한 설명 및 가이드가 포함된 파일입니다.
 └── yarn.lock # Yarn 패키지 관리자의 잠금 파일로, 설치된 패키지의 버전이 고정됩니다.
 ```
-
-
-# 작성자의 기여
-
